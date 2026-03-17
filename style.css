@@ -519,6 +519,24 @@ body {
     flex-wrap: wrap;
 }
 
+.more-textX {
+  display: none;
+}
+
+.read-more-btnX {
+  margin-top: 10px;
+  background: none;
+  border: none;
+  color: #E2665C;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0;
+}
+
+.read-more-btnX:hover {
+  text-decoration: underline;
+}
+
 /* Tablet */
 @media (max-width: 968px) {
 
