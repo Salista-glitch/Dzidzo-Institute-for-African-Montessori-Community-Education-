@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary SEO -->
+    <title>2026 Fellows — Cohort 1 | IAMCE</title>
+    <meta name="description" content="Meet the 2026 Cohort 1 Fellows of the Institute for Afrocentric Montessori & Community Education.">
+    <meta name="keywords" content="IAMCE fellows, 2026 cohort, African Montessori leaders, Montessori fellows Zimbabwe">
+    <meta name="author" content="MoW Institute for African Montessori & Community Education">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.iamce.org/fellows-2026.html">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.iamce.org/fellows-2026.html">
+    <meta property="og:title" content="2026 Fellows — Cohort 1 | IAMCE">
+    <meta property="og:description" content="Meet the 2026 Cohort 1 Fellows shaping the future of Afrocentric Montessori education.">
+    <meta property="og:image" content="https://www.iamce.org/img/iamcelogo_1.jpg">
+    <meta property="og:locale" content="en_ZW">
+    <meta property="og:site_name" content="IAMCE">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpeg" href="img/iamcelogo_1.jpg">
+    <link rel="apple-touch-icon" href="img/iamcelogo_1.jpg">
+    <meta name="theme-color" content="#ecd2a1">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sniglet:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Boogaloo&display=swap" rel="stylesheet">
+
+    <style>
+       
+        .fellows-section {
+            padding: 60px 20px 80px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .fellows-subheading {
+            text-align: center;
+            font-family: 'Boogaloo', cursive;
+            font-size: 1.8rem;
+            color: #333;
+            margin-bottom: 40px;
+        }
+
+        /* 4-column Grid layout */
+        .fellows-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 30px;
+            width: 100%;
+        }
+
+        /* Fellow Card Styling */
+        .fellow-card {
+            background: #ffffff;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+            border: 2px solid #f1f1f1;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .fellow-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
+        }
+
+        /* Portrait Image Container */
+        .fellow-img-wrapper {
+            width: 100%;
+            height: 280px;
+            overflow: hidden;
+            position: relative;
+            background-color: #f7f7f7;
+        }
+
+        .fellow-img-wrapper img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+            transition: transform 0.4s ease;
+        }
+
+        .fellow-card:hover .fellow-img-wrapper img {
+            transform: scale(1.04);
+        }
+
+        /* Fellow Information Block */
+        .fellow-info {
+            padding: 20px 15px;
+            width: 100%;
+        }
+
+        .fellow-name {
+            font-family: 'Boogaloo', cursive;
+            font-size: 1.85rem;
+            color: #ffffff;
+            background-color: #E2665C; /* Matching theme banner color */
+            padding: 8px 12px;
+            border-radius: 6px;
+            margin: 0 0 10px 0;
+            display: inline-block;
+            word-wrap: break-word;
+        }
+
+        .fellow-badge {
+            font-family: 'Boogaloo', cursive;
+            font-size: 0.95rem;
+            color: #67acda;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            display: block;
+        }
+
+        
+        @media (max-width: 1024px) {
+            .fellows-grid {
+                grid-template-columns: repeat(3, 1fr); /* 3x4 on Tablets */
+            }
+        }
+
+        @media (max-width: 768px) {
+            .fellows-grid {
+                grid-template-columns: repeat(2, 1fr); /* 2x6 on Small Screens */
+                gap: 20px;
+            }
+            .fellow-img-wrapper {
+                height: 230px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .fellows-grid {
+                grid-template-columns: 1fr; /* Single column on Mobile */
+            }
+            .fellow-img-wrapper {
+                height: 300px;
+            }
+        }
+    </style>
+</head>
+<body class="training-page">
+
+    <!-- Header & Hero Navbar -->
+    <header class="navbar" style="margin: 0; padding: 0; display: block;">
+        <section class="training-hero" style="margin: 0; padding: 10px 0 0 0; position: relative;">
+            
+            <div class="logo-area" style="margin-top: 0; padding-top: 5px;">
+                <img src="img/iamce-logo__2_-Picsart-AiImageEnhancer-removebg-preview.png" alt="IAMCE Logo" style="display: block;">
+            </div>
+
+            <nav class="nav-links" style="margin-top: -10px; padding-top: 0;">
+                <a href="index.html">ABOUT</a>
+                <a href="training.html">TRAINING</a>
+                <a href="application.html">INSTRUCTORS</a>
+                <a href="fellows-2026.html" class="active">FELLOWS</a>
+                <a href="labs.html">MONTESSORI LABS</a>
+            </nav>
+
+            <div class="hero-overlay" style="margin-top: 20px;">
+                <h1 style="margin-top: 0;">2026 FELLOWS &bull; COHORT 1</h1>
+            </div>
+        </section>
+    </header>
+
+    <!-- Fellows 4x3 Grid Section -->
+    <main class="fellows-section">
+      <header class="about-header" style="text-align: center; margin-bottom: 40px;">
+                <h3 class="section-labelX" style="font-size: 1.2rem;">Meet our emerging African Montessori leaders and educators.</h3>
+                                                           
+       </header>        
+        
+        <div class="fellows-grid">
+
+            <!-- Card 1 -->
+            <div class="fellow-card">
+                <div class="fellow-img-wrapper">
+                    <img src="img/fellows/fellow (1).JPG" alt="Fellow Name 1">
+                </div>
+                <div class="fellow-info">
+                    <h3 class="fellow-name">Amanda Muchena</h3>
+                    <span class="fellow-badge">Cohort 1 Fellow</span>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="fellow-card">
+                <div class="fellow-img-wrapper">
+                    <img src="img/fellows/fellow (2).JPG" alt="Fellow Name 2">
+                </div>
+                <div class="fellow-info">
+                    <h3 class="fellow-name">Patience Tseriwa</h3>
+                    <span class="fellow-badge">Cohort 1 Fellow</span>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="fellow-card">
+                <div class="fellow-img-wrapper">
+                    <img src="img/fellows/fellow (3).JPG" alt="Fellow Name 3">
+                </div>
+                <div class="fellow-info">
+                    <h3 class="fellow-name">Tawanda Dzingayi</h3>
+                    <span class="fellow-badge">Cohort 1 Fellow</span>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="fellow-card">
+                <div class="fellow-img-wrapper">
+                    <img src="img/fellows/fellow (4).JPG" alt="Fellow Name 4">
+                </div>
+                <div class="fellow-info">
+                    <h3 class="fellow-name">Brenda Mabvuramiti</h3>
+                    <span class="fellow-badge">Cohort 1 Fellow</span>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="fellow-card">
+                <div class="fellow-img-wrapper">
+                    <img src="img/fellows/fellow (5).JPG" alt="Fellow Name 5">
+                </div>
+                <div class="fellow-info">
+                    <h3 class="fellow-name">Mitchell Mavhura</h3>
+                    <span class="fellow-badge">Cohort 1 Fellow</span>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="fellow-card">
+                <div class="fellow-img-wrapper">
+                    <img src="img/fellows/fellow (6).JPG" alt="Fellow Name 6">
+                </div>
+                <div class="fellow-info">
+                    <h3 class="fellow-name">Tapiwa Mandevani</h3>
+                    <span class="fellow-badge">Cohort 1 Fellow</span>
+                </div>
+            </div>
+
+            <!-- Card 7 -->
+            <div class="fellow-card">
+                <div class="fellow-img-wrapper">
+                    <img src="img/fellows/fellow (7).JPG" alt="Fellow Name 7">
+                </div>
+                <div class="fellow-info">
+                    <h3 class="fellow-name">Natasha Malunga</h3>
+                    <span class="fellow-badge">Cohort 1 Fellow</span>
+                </div>
+            </div>
+
+            <!-- Card 8 -->
+            <div class="fellow-card">
+                <div class="fellow-img-wrapper">
+                    <img src="img/fellows/fellow (8).JPG" alt="Fellow Name 8">
+                </div>
+                <div class="fellow-info">
+                    <h3 class="fellow-name">Molly Motsi</h3>
+                    <span class="fellow-badge">Cohort 1 Fellow</span>
+                </div>
+            </div>
+
+            <!-- Card 9 -->
+            <div class="fellow-card">
+                <div class="fellow-img-wrapper">
+                    <img src="img/fellows/fellow (9).JPG" alt="Fellow Name 9">
+                </div>
+                <div class="fellow-info">
+                    <h3 class="fellow-name">Lorrator Chuma</h3>
+                    <span class="fellow-badge">Cohort 1 Fellow</span>
+                </div>
+            </div>
+
+            <!-- Card 10 -->
+            <div class="fellow-card">
+                <div class="fellow-img-wrapper">
+                    <img src="img/fellows/fellow (10).JPG" alt="Fellow Name 10">
+                </div>
+                <div class="fellow-info">
+                    <h3 class="fellow-name">Munotida Muropa</h3>
+                    <span class="fellow-badge">Cohort 1 Fellow</span>
+                </div>
+            </div>
+
+            <!-- Card 11 -->
+            <div class="fellow-card">
+                <div class="fellow-img-wrapper">
+                    <img src="img/fellows/fellow (11).JPG" alt="Fellow Name 11">
+                </div>
+                <div class="fellow-info">
+                    <h3 class="fellow-name">Agnes Chirata</h3>
+                    <span class="fellow-badge">Cohort 1 Fellow</span>
+                </div>
+            </div>
+
+            <!-- Card 12 -->
+            <div class="fellow-card">
+                <div class="fellow-img-wrapper">
+                    <img src="img/fellows/fellow (12).JPG" alt="Fellow Name 12">
+                </div>
+                <div class="fellow-info">
+                    <h3 class="fellow-name">Kimberly Pasi</h3>
+                    <span class="fellow-badge">Cohort 1 Fellow</span>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="site-footer-inner">
+            <img src="img/iamce-logo__1_-Picsart-AiImageEnhancer-removebg-preview.png" alt="IAMCE Logo" class="site-footer-logo">
+            <nav class="site-footer-nav">
+                <a href="index.html">ABOUT</a>
+                <a href="training.html">TRAINING</a>
+                <a href="application.html">INSTRUCTORS</a>
+                <a href="labs.html">Montessori Labs</a>
+            </nav>
+            <div class="site-footer-divider"></div>
+            <p class="site-footer-copy">
+                © 2025 Institute for Afrocentric Montessori & Community Education.<br>
+                All rights reserved.
+            </p>
+            <p class="site-footer-credit">
+                Website by <a href="mailto:fengshuistudiohq@gmail.com?subject=Website Inquiry" target="_blank" rel="noopener noreferrer">Feng Shui Studio</a>
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
